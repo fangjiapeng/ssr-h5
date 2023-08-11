@@ -1,0 +1,84 @@
+.operation-area{
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 16px 16px 0 0;
+    background-color: #fff;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    box-shadow: 0px -5px 8px 0px rgba(0,0,0,0.0200);
+    .left{
+        
+        .select-area, .has-submit, .my-answers, .standard-answers{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .tips{
+            color: #2C394A;
+            padding-right: 10px;
+            font-weight: bold;
+        }
+        .btn-groups{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .option-btn{
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                font-size: 16px;
+                color: #37BAFF;
+                text-align: center;
+                background-color: #EDF8FF;
+                border-radius: 50% 50%;
+                margin-right: 20px;
+            }
+            .option-btn-active{
+                color: #fff;
+                background-color:#37BAFF ;
+            }
+        }
+    }
+    .right{
+        .submit-btn{
+            padding: 10px 15px;
+            background-color: #37BAFF;
+            border: 1px solid #37C2FF;
+            border-radius: 2em 2em;
+            color: #fff;
+            cursor: pointer;
+        }
+        .submit-btn-disabled{
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+        .switch-question-btns{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .prev-btn{
+                padding: 12px 23px;
+                background-color: #fff;
+                border-radius: 2em 2em;
+                color: #37BAFF;
+                border: 1px solid #37C2FF;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+            .next-btn{
+                padding: 12px 23px;
+                background-color: #37BAFF;
+                border-radius: 2em 2em;
+                color: #fff;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+.question{
+    width: 964px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    .question-type{
+        width: 100%;
+        height: 50px;
+        padding-left: 84px;
+        font-size: 16px;
+        color: #2C394A;
+        font-weight: bold;
+    }
+    .question-container{
+        width: 100%;
+        height: 100%;
+        background-image: url('@/assets/images/bg-item.png');
+        background-repeat: repeat-y;
+        background-size: 100%;
+        overflow: hidden;
+        margin: 0 40px;
+        .scroll-area{
+            height: 90%;
+            overflow-y: auto;
+            .question-content{
+                .question-title{
+                    padding-left: 43px;
+                    color: #2C394A;
+                    font-size: 16px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    font-weight: bold;
+                }
+                .question-options{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    padding: 0 60px;
+                    margin-top: 30px;
+                }
+            }
+            .answer-result{
+                padding: 30px 20px;
+                margin-bottom: 30px;
+                font-size: 16px;
+                border-bottom: 1px dashed #F1F1F5;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                .correct-icon{
+                    width: 28px;
+                    height: 28px;
+                    background: url('@/assets/images/correct.svg') 0 0 no-repeat;
+                    background-size: 100% 100%;
+                    margin-right: 8px;
+                }
+                .correct-text{
+                    color: #00DACA;
+                }
+                .false-icon{
+                    width: 28px;
+                    height: 28px;
+                    background: url('@/assets/images/incorrect.svg') 0 0 no-repeat;
+                    background-size: 100% 100%;
+                    margin-right: 8px;
+                }
+                .false-text{
+                    color: #FF6674;
+                }
+            }
+            .answer-answerAnalysis{
+                padding: 0 60px;
+                .answerAnalysis-title{
+                    color: #2C394A;
+                    font-size: 16px;
+                    padding-left: 20px;
+                    margin-bottom: 8px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    font-weight: bold;
+                    .analysis-icon{
+                        width: 28px;
+                        height: 28px;
+                        background: url('@/assets/images/tv.svg') 0 0 no-repeat;
+                        background-size: 100% 100%;
+                        margin-right: 8px;
+                    }
+                }
+                .answerAnalysis-body{
+                    font-size: 16px;
+                    padding: 20px 20px;
+                    background-color: #F5FBFF;
+                    border-radius: 8px 8px;
+                    .answerAnalysis-item{
+                        padding-bottom: 8px;
+                    }
+                }
+            }
+        }
+    }
+}

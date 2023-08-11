@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>正确</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="答题页面-题4-判断题（答对）" transform="translate(-110.000000, -220.000000)">
+            <g id="正确" transform="translate(110.000000, 220.000000)">
+                <rect id="矩形" x="0" y="0" width="28" height="28"></rect>
+                <circle id="椭圆形" fill="#00DACA" cx="14" cy="14" r="12"></circle>
+                <polyline id="路径-10" stroke="#FFFFFF" stroke-width="2.66666667" stroke-linecap="round" stroke-linejoin="round" points="8.66666667 14.107898 12.5985413 18 19.3333333 11.3333333"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
